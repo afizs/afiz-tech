@@ -1,3 +1,19 @@
 site_name: Afiz Tech
 theme:
+  language: en
   name: material
+  palette:
+  - media: '(prefers-color-scheme: light)'
+    scheme: default
+    primary: teal
+    toggle:
+        icon: material/lightbulb-outline
+        name: Switch to dark mode
+    # dark mode
+  - media: '(prefers-color-scheme: dark)'
+    scheme: slate
+    primary: teal
+    toggle:
+        icon: material/lightbulb
+        name: Switch to dark mode
+
