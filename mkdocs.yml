@@ -4,8 +4,8 @@ nav:
 - Projects:
     - 'School Management System': 'projects/sms.md'
     - 'Restaurant Management System': 'projects/rms.md'
-repo_url: https://github.com/squidfunk/mkdocs-material
-repo_name: squidfunk/mkdocs-material
+repo_url: https://github.com/afizs/afiz-tech
+repo_name: afizs/afiz-tech
 theme:
   language: en
   name: material
