@@ -12,19 +12,19 @@ theme:
   name: material
   logo: assets/afiz-logo.png
   palette:
-  - media: '(prefers-color-scheme: light)'
+  - media: '(prefers-color-scheme: dark)'
     scheme: default
     primary: light-blue
     toggle:
-        icon: material/lightbulb-outline
-        name: Switch to dark mode
+        icon: material/lightbulb
+        name: Switch to light mode
     # dark mode
-  - media: '(prefers-color-scheme: dark)'
+  - media: '(prefers-color-scheme: light)'
     scheme: slate
     primary: teal
     toggle:
-        icon: material/lightbulb
-        name: Switch to light mode
+        icon: material/lightbulb-outline
+        name: Switch to dark mode
   features:
     - navigation.top
 markdown_extensions:
