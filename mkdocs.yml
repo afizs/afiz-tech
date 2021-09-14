@@ -1,4 +1,5 @@
 site_name: Afiz Tech
+site_url: https://www.youtube.com/channel/UCeDb05CCWRs6AQJNiiQiP3g?sub_confirmation=1
 nav:
 - Home: 'index.md'
 - Projects:
