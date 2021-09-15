@@ -1,6 +1,6 @@
 
 `Python` Module required:
-    ```
+    ```python
     import contextlib
     from urllib.parse import urlencode
     from urllib.request import urlopen
