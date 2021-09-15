@@ -6,6 +6,7 @@ nav:
     - 'School Management System': 'projects/sms.md'
     - 'Restaurant Management System': 'projects/rms.md'
     - 'URL Shortner Proejct': 'projects/url.md'
+    - 'Random Password Generator': 'projects/password.md'
 repo_url: https://github.com/afizs/afiz-tech
 repo_name: afizs/afiz-tech
 theme:
