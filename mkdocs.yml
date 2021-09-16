@@ -3,6 +3,7 @@ site_url: https://www.youtube.com/channel/UCeDb05CCWRs6AQJNiiQiP3g?sub_confirmat
 nav:
 - Home: 'index.md'
 - Projects:
+    - 'Python Projects for Beginners': 'projects/simplepyprojects.md'
     - 'School Management System': 'projects/sms.md'
     - 'Restaurant Management System': 'projects/rms.md'
     - 'URL Shortner Proejct': 'projects/url.md'
