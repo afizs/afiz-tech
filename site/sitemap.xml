@@ -2,42 +2,52 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
          <loc>https://www.youtube.com/channel/UCeDb05CCWRs6AQJNiiQiP3g/?sub_confirmation=1/</loc>
-         <lastmod>2021-09-17</lastmod>
+         <lastmod>2021-09-19</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://www.youtube.com/channel/UCeDb05CCWRs6AQJNiiQiP3g/about/</loc>
-         <lastmod>2021-09-17</lastmod>
+         <lastmod>2021-09-19</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://www.youtube.com/channel/UCeDb05CCWRs6AQJNiiQiP3g/projects/</loc>
-         <lastmod>2021-09-17</lastmod>
+         <lastmod>2021-09-19</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://www.youtube.com/channel/UCeDb05CCWRs6AQJNiiQiP3g/exercises/dictionary/</loc>
+         <lastmod>2021-09-19</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://www.youtube.com/channel/UCeDb05CCWRs6AQJNiiQiP3g/exercises/home/</loc>
+         <lastmod>2021-09-19</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://www.youtube.com/channel/UCeDb05CCWRs6AQJNiiQiP3g/projects/password/</loc>
-         <lastmod>2021-09-17</lastmod>
+         <lastmod>2021-09-19</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://www.youtube.com/channel/UCeDb05CCWRs6AQJNiiQiP3g/projects/rms/</loc>
-         <lastmod>2021-09-17</lastmod>
+         <lastmod>2021-09-19</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://www.youtube.com/channel/UCeDb05CCWRs6AQJNiiQiP3g/projects/simplepyprojects/</loc>
-         <lastmod>2021-09-17</lastmod>
+         <lastmod>2021-09-19</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://www.youtube.com/channel/UCeDb05CCWRs6AQJNiiQiP3g/projects/sms/</loc>
-         <lastmod>2021-09-17</lastmod>
+         <lastmod>2021-09-19</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://www.youtube.com/channel/UCeDb05CCWRs6AQJNiiQiP3g/projects/url/</loc>
-         <lastmod>2021-09-17</lastmod>
+         <lastmod>2021-09-19</lastmod>
          <changefreq>daily</changefreq>
     </url>
 </urlset>
