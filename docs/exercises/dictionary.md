@@ -14,7 +14,8 @@ Source Code:
 ```python
 --8<-- "code/exercises/twotodict.py"
 ```
-2. Merge two dictionaries into one in Python
+[YouTube](https://youtu.be/PFsP2U4_GH0)
+### 2. Merge two dictionaries into one in Python
 
 `input`: 
 ```python 
@@ -43,23 +44,114 @@ Source Code:
 ```python
 --8<-- "code/exercises/mergetwo.py"
 ```
-3. Create dictionary with default values
+### 3. Create dictionary with default values
+
+`input`: 
 ```python
---8<-- "code/exercises/defaultvalues.py"
+items = ['Lemon rice', 'Paneer Masala', 'Parota']
+defaults = {"veg": True,"quantity": 1 }
 ```
-4. Create a new small dictionary from big dictionary
+`output`: 
 ```python
---8<-- "code/exercises/mergetwodict.py"
+{
+    'Lemon rice': {"veg": True,"quantity": 1 }, 
+    'Paneer Masala': {"veg": True,"quantity": 1 },
+    'Parota': {"veg": True,"quantity": 1 }
+}
 ```
-5. Delete set of keys from a dictionary
+Source Code: 
 ```python
---8<-- "code/exercises/mergetwodict.py"
+--8<-- "code/exercises/default_values.py"
 ```
-6. Rename a key in the dictionary
+### 4. Create a new small dictionary from big dictionary
+
+`input`: 
 ```python
---8<-- "code/exercises/mergetwodict.py"
+dict_a = {
+    "id": 10,
+    "name": "Softdrinks",
+    "price": 30,
+    "veg": True,
+    "quantity": 1
+}
+
+keys = ['id', 'name']
 ```
-7. Get the key of a minimum value from a dictionary
+`output`: 
 ```python
---8<-- "code/exercises/mergetwodict.py"
+{id: 10, name: softdrinks}
+```
+Source Code: 
+```python
+--8<-- "code/exercises/smallfrombig.py"
+```
+### 5. Delete set of keys from a dictionary
+
+`input`: 
+```python 
+dict_a = {
+    "id": 10,
+    "name": "Softdrinks",
+    "price": 30,
+    "veg": True,
+    "quantity": 1
+}
+
+keys_to_remove = ['veg', 'quantity']
+```
+`output`:
+```python
+{
+    "id": 10,
+    "name": "Softdrinks",
+    "price": 30,
+}
+```
+Source Code: 
+```python
+--8<-- "code/exercises/deletekeys.py"
+```
+### 6. Rename a key in the dictionary
+
+`input`: 
+```python
+dict_a = {
+    "id": 10,
+    "name": "Softdrinks",
+    "price": 30,
+    "veg": True,
+    "quantity": 1
+}
+# rename the "veg" key to "new_veg" 
+```
+output:
+```python
+dict_a = {
+    "id": 10,
+    "name": "Softdrinks",
+    "price": 30,
+    "new_veg": True,
+    "quantity": 1
+}
+```
+Source Code: 
+```python
+--8<-- "code/exercises/renamekey.py"
+```
+### 7. Get the key of a max value from a dictionary
+
+`input`: 
+```python 
+scores = {
+    "rohit": 76,
+    'rahul': 45,
+    'kohli': 43,
+    'Jadeja': 89
+}
+```
+`output`: `kohli`
+
+Source Code: 
+```python
+--8<-- "code/exercises/getmax.py"
 ```

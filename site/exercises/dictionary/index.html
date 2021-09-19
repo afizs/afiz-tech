@@ -396,6 +396,48 @@
   
 </li>
       
+        <li class="md-nav__item">
+  <a href="#2-merge-two-dictionaries-into-one-in-python" class="md-nav__link">
+    2. Merge two dictionaries into one in Python
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#3-create-dictionary-with-default-values" class="md-nav__link">
+    3. Create dictionary with default values
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#4-create-a-new-small-dictionary-from-big-dictionary" class="md-nav__link">
+    4. Create a new small dictionary from big dictionary
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#5-delete-set-of-keys-from-a-dictionary" class="md-nav__link">
+    5. Delete set of keys from a dictionary
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#6-rename-a-key-in-the-dictionary" class="md-nav__link">
+    6. Rename a key in the dictionary
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#7-get-the-key-of-a-max-value-from-a-dictionary" class="md-nav__link">
+    7. Get the key of a max value from a dictionary
+  </a>
+  
+</li>
+      
     </ul>
   
 </nav>
@@ -454,7 +496,8 @@ Source Code:
 <span class="c1"># print(my_dictionary)</span>
 </code></pre></div>
 </td></tr></table>
-2. Merge two dictionaries into one in Python</p>
+<a href="https://youtu.be/PFsP2U4_GH0">YouTube</a></p>
+<h3 id="2-merge-two-dictionaries-into-one-in-python">2. Merge two dictionaries into one in Python</h3>
 <p><code>input</code>: 
 <table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span> 1
  2
@@ -530,25 +573,301 @@ Source Code:
 <span class="n">dict_a</span><span class="o">.</span><span class="n">update</span><span class="p">(</span><span class="n">dict_b</span><span class="p">)</span>
 <span class="nb">print</span><span class="p">(</span><span class="n">dict_a</span><span class="p">)</span>
 </code></pre></div>
-</td></tr></table>
-3. Create dictionary with default values
-<table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span>1</pre></div></td><td class="code"><div class="highlight"><pre><span></span><code>
+</td></tr></table></p>
+<h3 id="3-create-dictionary-with-default-values">3. Create dictionary with default values</h3>
+<p><code>input</code>: 
+<table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span>1
+2</pre></div></td><td class="code"><div class="highlight"><pre><span></span><code><span class="n">items</span> <span class="o">=</span> <span class="p">[</span><span class="s1">&#39;Lemon rice&#39;</span><span class="p">,</span> <span class="s1">&#39;Paneer Masala&#39;</span><span class="p">,</span> <span class="s1">&#39;Parota&#39;</span><span class="p">]</span>
+<span class="n">defaults</span> <span class="o">=</span> <span class="p">{</span><span class="s2">&quot;veg&quot;</span><span class="p">:</span> <span class="kc">True</span><span class="p">,</span><span class="s2">&quot;quantity&quot;</span><span class="p">:</span> <span class="mi">1</span> <span class="p">}</span>
 </code></pre></div>
 </td></tr></table>
-4. Create a new small dictionary from big dictionary
-<table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span>1</pre></div></td><td class="code"><div class="highlight"><pre><span></span><code>
+<code>output</code>: 
+<table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span>1
+2
+3
+4
+5</pre></div></td><td class="code"><div class="highlight"><pre><span></span><code><span class="p">{</span>
+    <span class="s1">&#39;Lemon rice&#39;</span><span class="p">:</span> <span class="p">{</span><span class="s2">&quot;veg&quot;</span><span class="p">:</span> <span class="kc">True</span><span class="p">,</span><span class="s2">&quot;quantity&quot;</span><span class="p">:</span> <span class="mi">1</span> <span class="p">},</span> 
+    <span class="s1">&#39;Paneer Masala&#39;</span><span class="p">:</span> <span class="p">{</span><span class="s2">&quot;veg&quot;</span><span class="p">:</span> <span class="kc">True</span><span class="p">,</span><span class="s2">&quot;quantity&quot;</span><span class="p">:</span> <span class="mi">1</span> <span class="p">},</span>
+    <span class="s1">&#39;Parota&#39;</span><span class="p">:</span> <span class="p">{</span><span class="s2">&quot;veg&quot;</span><span class="p">:</span> <span class="kc">True</span><span class="p">,</span><span class="s2">&quot;quantity&quot;</span><span class="p">:</span> <span class="mi">1</span> <span class="p">}</span>
+<span class="p">}</span>
 </code></pre></div>
 </td></tr></table>
-5. Delete set of keys from a dictionary
-<table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span>1</pre></div></td><td class="code"><div class="highlight"><pre><span></span><code>
+Source Code: 
+<table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span> 1
+ 2
+ 3
+ 4
+ 5
+ 6
+ 7
+ 8
+ 9
+10
+11
+12
+13
+14
+15
+16
+17</pre></div></td><td class="code"><div class="highlight"><pre><span></span><code><span class="n">items</span> <span class="o">=</span> <span class="p">[</span><span class="s1">&#39;Lemon rice&#39;</span><span class="p">,</span> <span class="s1">&#39;Paneer Masala&#39;</span><span class="p">,</span> <span class="s1">&#39;Parota&#39;</span><span class="p">]</span>
+<span class="n">defaults</span> <span class="o">=</span> <span class="p">{</span><span class="s2">&quot;veg&quot;</span><span class="p">:</span> <span class="kc">True</span><span class="p">,</span><span class="s2">&quot;quantity&quot;</span><span class="p">:</span> <span class="mi">1</span> <span class="p">}</span>
+
+<span class="c1"># output: {&#39;Lemon rice&#39;: {&quot;veg&quot;: True,&quot;quantity&quot;: 1 }, </span>
+<span class="c1">#           &#39;Paneer Masala&#39;: {&quot;veg&quot;: True,&quot;quantity&quot;: 1 },</span>
+<span class="c1">#           &#39;Parota&#39;: {&quot;veg&quot;: True,&quot;quantity&quot;: 1 }}</span>
+
+<span class="n">my_dict</span> <span class="o">=</span> <span class="p">{}</span>
+<span class="k">for</span> <span class="n">item</span> <span class="ow">in</span> <span class="n">items</span><span class="p">:</span>
+    <span class="n">my_dict</span><span class="p">[</span><span class="n">item</span><span class="p">]</span> <span class="o">=</span> <span class="n">defaults</span>
+
+<span class="nb">print</span><span class="p">(</span><span class="n">my_dict</span><span class="p">)</span>
+
+<span class="c1"># solution 2 </span>
+
+<span class="n">my_dict_2</span> <span class="o">=</span> <span class="nb">dict</span><span class="o">.</span><span class="n">fromkeys</span><span class="p">(</span><span class="n">items</span><span class="p">,</span> <span class="n">defaults</span><span class="p">)</span>
+<span class="nb">print</span><span class="p">(</span><span class="n">my_dict_2</span><span class="p">)</span>
+</code></pre></div>
+</td></tr></table></p>
+<h3 id="4-create-a-new-small-dictionary-from-big-dictionary">4. Create a new small dictionary from big dictionary</h3>
+<p><code>input</code>: 
+<table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span>1
+2
+3
+4
+5
+6
+7
+8
+9</pre></div></td><td class="code"><div class="highlight"><pre><span></span><code><span class="n">dict_a</span> <span class="o">=</span> <span class="p">{</span>
+    <span class="s2">&quot;id&quot;</span><span class="p">:</span> <span class="mi">10</span><span class="p">,</span>
+    <span class="s2">&quot;name&quot;</span><span class="p">:</span> <span class="s2">&quot;Softdrinks&quot;</span><span class="p">,</span>
+    <span class="s2">&quot;price&quot;</span><span class="p">:</span> <span class="mi">30</span><span class="p">,</span>
+    <span class="s2">&quot;veg&quot;</span><span class="p">:</span> <span class="kc">True</span><span class="p">,</span>
+    <span class="s2">&quot;quantity&quot;</span><span class="p">:</span> <span class="mi">1</span>
+<span class="p">}</span>
+
+<span class="n">keys</span> <span class="o">=</span> <span class="p">[</span><span class="s1">&#39;id&#39;</span><span class="p">,</span> <span class="s1">&#39;name&#39;</span><span class="p">]</span>
 </code></pre></div>
 </td></tr></table>
-6. Rename a key in the dictionary
-<table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span>1</pre></div></td><td class="code"><div class="highlight"><pre><span></span><code>
+<code>output</code>: 
+<table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span>1</pre></div></td><td class="code"><div class="highlight"><pre><span></span><code><span class="p">{</span><span class="nb">id</span><span class="p">:</span> <span class="mi">10</span><span class="p">,</span> <span class="n">name</span><span class="p">:</span> <span class="n">softdrinks</span><span class="p">}</span>
 </code></pre></div>
 </td></tr></table>
-7. Get the key of a minimum value from a dictionary
-<table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span>1</pre></div></td><td class="code"><div class="highlight"><pre><span></span><code>
+Source Code: 
+<table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span> 1
+ 2
+ 3
+ 4
+ 5
+ 6
+ 7
+ 8
+ 9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19</pre></div></td><td class="code"><div class="highlight"><pre><span></span><code><span class="c1"># Create a new small dictionary from big dictionary </span>
+<span class="n">dict_a</span> <span class="o">=</span> <span class="p">{</span>
+    <span class="s2">&quot;id&quot;</span><span class="p">:</span> <span class="mi">10</span><span class="p">,</span>
+    <span class="s2">&quot;name&quot;</span><span class="p">:</span> <span class="s2">&quot;Softdrinks&quot;</span><span class="p">,</span>
+    <span class="s2">&quot;price&quot;</span><span class="p">:</span> <span class="mi">30</span><span class="p">,</span>
+    <span class="s2">&quot;veg&quot;</span><span class="p">:</span> <span class="kc">True</span><span class="p">,</span>
+    <span class="s2">&quot;quantity&quot;</span><span class="p">:</span> <span class="mi">1</span>
+<span class="p">}</span>
+
+<span class="n">keys</span> <span class="o">=</span> <span class="p">[</span><span class="s1">&#39;id&#39;</span><span class="p">,</span> <span class="s1">&#39;name&#39;</span><span class="p">]</span>
+<span class="c1"># {id: 10, name: softdrinks}</span>
+<span class="n">new_dict</span> <span class="o">=</span> <span class="p">{}</span>
+<span class="k">for</span> <span class="n">key</span> <span class="ow">in</span> <span class="n">keys</span><span class="p">:</span>
+    <span class="n">new_dict</span><span class="p">[</span><span class="n">key</span><span class="p">]</span> <span class="o">=</span>  <span class="n">dict_a</span><span class="p">[</span><span class="n">key</span><span class="p">]</span>
+<span class="nb">print</span><span class="p">(</span><span class="n">new_dict</span><span class="p">)</span>
+
+<span class="c1"># solution 2 </span>
+<span class="n">new_dict</span> <span class="o">=</span> <span class="p">{</span><span class="n">key</span><span class="p">:</span> <span class="n">dict_a</span><span class="p">[</span><span class="n">key</span><span class="p">]</span> <span class="k">for</span> <span class="n">key</span> <span class="ow">in</span> <span class="n">keys</span><span class="p">}</span>
+<span class="nb">print</span><span class="p">(</span><span class="n">new_dict</span><span class="p">)</span>
+</code></pre></div>
+</td></tr></table></p>
+<h3 id="5-delete-set-of-keys-from-a-dictionary">5. Delete set of keys from a dictionary</h3>
+<p><code>input</code>: 
+<table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span>1
+2
+3
+4
+5
+6
+7
+8
+9</pre></div></td><td class="code"><div class="highlight"><pre><span></span><code><span class="n">dict_a</span> <span class="o">=</span> <span class="p">{</span>
+    <span class="s2">&quot;id&quot;</span><span class="p">:</span> <span class="mi">10</span><span class="p">,</span>
+    <span class="s2">&quot;name&quot;</span><span class="p">:</span> <span class="s2">&quot;Softdrinks&quot;</span><span class="p">,</span>
+    <span class="s2">&quot;price&quot;</span><span class="p">:</span> <span class="mi">30</span><span class="p">,</span>
+    <span class="s2">&quot;veg&quot;</span><span class="p">:</span> <span class="kc">True</span><span class="p">,</span>
+    <span class="s2">&quot;quantity&quot;</span><span class="p">:</span> <span class="mi">1</span>
+<span class="p">}</span>
+
+<span class="n">keys_to_remove</span> <span class="o">=</span> <span class="p">[</span><span class="s1">&#39;veg&#39;</span><span class="p">,</span> <span class="s1">&#39;quantity&#39;</span><span class="p">]</span>
+</code></pre></div>
+</td></tr></table>
+<code>output</code>:
+<table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span>1
+2
+3
+4
+5</pre></div></td><td class="code"><div class="highlight"><pre><span></span><code><span class="p">{</span>
+    <span class="s2">&quot;id&quot;</span><span class="p">:</span> <span class="mi">10</span><span class="p">,</span>
+    <span class="s2">&quot;name&quot;</span><span class="p">:</span> <span class="s2">&quot;Softdrinks&quot;</span><span class="p">,</span>
+    <span class="s2">&quot;price&quot;</span><span class="p">:</span> <span class="mi">30</span><span class="p">,</span>
+<span class="p">}</span>
+</code></pre></div>
+</td></tr></table>
+Source Code: 
+<table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span> 1
+ 2
+ 3
+ 4
+ 5
+ 6
+ 7
+ 8
+ 9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20</pre></div></td><td class="code"><div class="highlight"><pre><span></span><code><span class="c1"># Delete set of keys from a dictionary</span>
+<span class="n">dict_a</span> <span class="o">=</span> <span class="p">{</span>
+    <span class="s2">&quot;id&quot;</span><span class="p">:</span> <span class="mi">10</span><span class="p">,</span>
+    <span class="s2">&quot;name&quot;</span><span class="p">:</span> <span class="s2">&quot;Softdrinks&quot;</span><span class="p">,</span>
+    <span class="s2">&quot;price&quot;</span><span class="p">:</span> <span class="mi">30</span><span class="p">,</span>
+    <span class="s2">&quot;veg&quot;</span><span class="p">:</span> <span class="kc">True</span><span class="p">,</span>
+    <span class="s2">&quot;quantity&quot;</span><span class="p">:</span> <span class="mi">1</span>
+<span class="p">}</span>
+
+<span class="n">keys_to_remove</span> <span class="o">=</span> <span class="p">[</span><span class="s1">&#39;veg&#39;</span><span class="p">,</span> <span class="s1">&#39;quantity&#39;</span><span class="p">]</span>
+
+<span class="n">total_keys</span> <span class="o">=</span> <span class="n">dict_a</span><span class="o">.</span><span class="n">keys</span><span class="p">()</span>
+<span class="n">my_dict</span> <span class="o">=</span> <span class="p">{</span><span class="n">key</span><span class="p">:</span> <span class="n">dict_a</span><span class="p">[</span><span class="n">key</span><span class="p">]</span> <span class="k">for</span> <span class="n">key</span> <span class="ow">in</span> <span class="n">total_keys</span> <span class="o">-</span> <span class="n">keys_to_remove</span><span class="p">}</span>
+<span class="nb">print</span><span class="p">(</span><span class="n">my_dict</span><span class="p">)</span>
+
+<span class="c1"># solution 2 </span>
+<span class="k">for</span> <span class="n">key</span> <span class="ow">in</span> <span class="n">keys_to_remove</span><span class="p">:</span>
+    <span class="n">dict_a</span><span class="o">.</span><span class="n">pop</span><span class="p">(</span><span class="n">key</span><span class="p">)</span>
+
+<span class="nb">print</span><span class="p">(</span><span class="n">dict_a</span><span class="p">)</span>
+</code></pre></div>
+</td></tr></table></p>
+<h3 id="6-rename-a-key-in-the-dictionary">6. Rename a key in the dictionary</h3>
+<p><code>input</code>: 
+<table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span>1
+2
+3
+4
+5
+6
+7
+8</pre></div></td><td class="code"><div class="highlight"><pre><span></span><code><span class="n">dict_a</span> <span class="o">=</span> <span class="p">{</span>
+    <span class="s2">&quot;id&quot;</span><span class="p">:</span> <span class="mi">10</span><span class="p">,</span>
+    <span class="s2">&quot;name&quot;</span><span class="p">:</span> <span class="s2">&quot;Softdrinks&quot;</span><span class="p">,</span>
+    <span class="s2">&quot;price&quot;</span><span class="p">:</span> <span class="mi">30</span><span class="p">,</span>
+    <span class="s2">&quot;veg&quot;</span><span class="p">:</span> <span class="kc">True</span><span class="p">,</span>
+    <span class="s2">&quot;quantity&quot;</span><span class="p">:</span> <span class="mi">1</span>
+<span class="p">}</span>
+<span class="c1"># rename the &quot;veg&quot; key to &quot;new_veg&quot; </span>
+</code></pre></div>
+</td></tr></table>
+output:
+<table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span>1
+2
+3
+4
+5
+6
+7</pre></div></td><td class="code"><div class="highlight"><pre><span></span><code><span class="n">dict_a</span> <span class="o">=</span> <span class="p">{</span>
+    <span class="s2">&quot;id&quot;</span><span class="p">:</span> <span class="mi">10</span><span class="p">,</span>
+    <span class="s2">&quot;name&quot;</span><span class="p">:</span> <span class="s2">&quot;Softdrinks&quot;</span><span class="p">,</span>
+    <span class="s2">&quot;price&quot;</span><span class="p">:</span> <span class="mi">30</span><span class="p">,</span>
+    <span class="s2">&quot;new_veg&quot;</span><span class="p">:</span> <span class="kc">True</span><span class="p">,</span>
+    <span class="s2">&quot;quantity&quot;</span><span class="p">:</span> <span class="mi">1</span>
+<span class="p">}</span>
+</code></pre></div>
+</td></tr></table>
+Source Code: 
+<table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span> 1
+ 2
+ 3
+ 4
+ 5
+ 6
+ 7
+ 8
+ 9
+10
+11
+12
+13</pre></div></td><td class="code"><div class="highlight"><pre><span></span><code><span class="c1"># Rename the key in the dictionary </span>
+
+<span class="n">dict_a</span> <span class="o">=</span> <span class="p">{</span>
+    <span class="s2">&quot;id&quot;</span><span class="p">:</span> <span class="mi">10</span><span class="p">,</span>
+    <span class="s2">&quot;name&quot;</span><span class="p">:</span> <span class="s2">&quot;Softdrinks&quot;</span><span class="p">,</span>
+    <span class="s2">&quot;price&quot;</span><span class="p">:</span> <span class="mi">30</span><span class="p">,</span>
+    <span class="s2">&quot;veg&quot;</span><span class="p">:</span> <span class="kc">True</span><span class="p">,</span>
+    <span class="s2">&quot;quantity&quot;</span><span class="p">:</span> <span class="mi">1</span>
+<span class="p">}</span>
+
+<span class="n">dict_a</span><span class="p">[</span><span class="s1">&#39;new_veg&#39;</span><span class="p">]</span> <span class="o">=</span>  <span class="n">dict_a</span><span class="o">.</span><span class="n">pop</span><span class="p">(</span><span class="s1">&#39;veg&#39;</span><span class="p">)</span>
+
+<span class="nb">print</span><span class="p">(</span><span class="n">dict_a</span><span class="p">)</span>
+</code></pre></div>
+</td></tr></table></p>
+<h3 id="7-get-the-key-of-a-max-value-from-a-dictionary">7. Get the key of a max value from a dictionary</h3>
+<p><code>input</code>: 
+<table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span>1
+2
+3
+4
+5
+6</pre></div></td><td class="code"><div class="highlight"><pre><span></span><code><span class="n">scores</span> <span class="o">=</span> <span class="p">{</span>
+    <span class="s2">&quot;rohit&quot;</span><span class="p">:</span> <span class="mi">76</span><span class="p">,</span>
+    <span class="s1">&#39;rahul&#39;</span><span class="p">:</span> <span class="mi">45</span><span class="p">,</span>
+    <span class="s1">&#39;kohli&#39;</span><span class="p">:</span> <span class="mi">43</span><span class="p">,</span>
+    <span class="s1">&#39;Jadeja&#39;</span><span class="p">:</span> <span class="mi">89</span>
+<span class="p">}</span>
+</code></pre></div>
+</td></tr></table>
+<code>output</code>: <code>kohli</code></p>
+<p>Source Code: 
+<table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span> 1
+ 2
+ 3
+ 4
+ 5
+ 6
+ 7
+ 8
+ 9
+10</pre></div></td><td class="code"><div class="highlight"><pre><span></span><code><span class="c1"># Get the key of a minimum value from a dictionary </span>
+<span class="n">scores</span> <span class="o">=</span> <span class="p">{</span>
+    <span class="s2">&quot;rohit&quot;</span><span class="p">:</span> <span class="mi">76</span><span class="p">,</span>
+    <span class="s1">&#39;rahul&#39;</span><span class="p">:</span> <span class="mi">45</span><span class="p">,</span>
+    <span class="s1">&#39;kohli&#39;</span><span class="p">:</span> <span class="mi">43</span><span class="p">,</span>
+    <span class="s1">&#39;Jadeja&#39;</span><span class="p">:</span> <span class="mi">89</span>
+<span class="p">}</span>
+
+<span class="c1"># output:  Kohli </span>
+<span class="nb">print</span><span class="p">(</span><span class="nb">max</span><span class="p">(</span><span class="n">scores</span><span class="p">,</span> <span class="n">key</span><span class="o">=</span><span class="n">scores</span><span class="o">.</span><span class="n">get</span><span class="p">))</span>
 </code></pre></div>
 </td></tr></table></p>
                 
