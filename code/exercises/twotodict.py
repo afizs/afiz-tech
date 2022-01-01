@@ -5,11 +5,11 @@ values = ['Afiz', 30, '9090909090']
 
 print(dict(zip(keys, values)))
 
-# my_dictionary = {}
+my_dictionary = {}
 
-# for i in range(len(keys)):
-#     my_dictionary[keys[i]] = values[i]
+for i in range(len(keys)):
+    my_dictionary[keys[i]] = values[i]
 
-# print(my_dictionary)
+print(my_dictionary)
 
 
